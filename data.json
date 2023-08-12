@@ -1,0 +1,82 @@
+{
+  "pagos": [
+    {
+      "id": 1,
+      "descripcion": "Pago de Diplomado en tal cosa",
+      "conceptos": [
+        {
+          "id": 1,
+          "nombre_concepto": "Matricula Posgrado",
+          "costo": "1000.00",
+          "porcentaje_descuento": "0.00",
+          "descuento": "0.00",
+          "monto_pagar": "1000.00",
+          "desglose": true,
+          "aplica_descuento": false
+        },
+        {
+          "id": 2,
+          "nombre_concepto": "Colegiatura Posgrado",
+          "costo": "300.00",
+          "porcentaje_descuento": "10.00",
+          "descuento": "30.00",
+          "monto_pagar": "270.00",
+          "desglose": true,
+          "aplica_descuento": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "descripcion": "Pago de diplomado en otro",
+      "conceptos": [
+        {
+          "id": 1,
+          "nombre_concepto": "Matricula Posgrado",
+          "costo": "2000.00",
+          "porcentaje_descuento": "0.00",
+          "descuento": "0.00",
+          "monto_pagar": "2000.00",
+          "desglose": true,
+          "aplica_descuento": false
+        },
+        {
+          "id": 2,
+          "nombre_concepto": "Colegiatura Posgrado",
+          "costo": "300.00",
+          "porcentaje_descuento": "20.00",
+          "descuento": "60.00",
+          "monto_pagar": "240.00",
+          "desglose": true,
+          "aplica_descuento": true
+        }
+      ]
+    },
+    {
+        "id": 3,
+        "descripcion": "Pago de diplomado 3",
+        "conceptos": [
+          {
+            "id": 1,
+            "nombre_concepto": "Matricula Posgrado",
+            "costo": "4000.00",
+            "porcentaje_descuento": "0.00",
+            "descuento": "0.00",
+            "monto_pagar": "4000.00",
+            "desglose": true,
+            "aplica_descuento": false
+          },
+          {
+            "id": 2,
+            "nombre_concepto": "Colegiatura Posgrado",
+            "costo": "450.00",
+            "porcentaje_descuento": "0.00",
+            "descuento": "0.00",
+            "monto_pagar": "450.00",
+            "desglose": true,
+            "aplica_descuento": true
+          }
+        ]
+      }
+  ]
+}
